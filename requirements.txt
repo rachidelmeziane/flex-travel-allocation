@@ -1,0 +1,11 @@
+# Runtime dependencies for the Flex travel allocation model.
+# On Databricks, PySpark is provided by the cluster runtime; this pin is used
+# for local development and CI so behaviour matches the target runtime.
+# Requires Python >=3.10,<3.13 (PySpark 3.5.x does not support Python 3.13+).
+pyspark==3.5.1
+
+# Model-estimation job (flex_travel_allocation.models): the Stage 1 cure model and
+# Stage 2 negative-binomial GLM. Not part of the Databricks runtime, so pin them here.
+# The daily allocation pipeline scores in pure Spark and needs neither.
+scipy>=1.11
+statsmodels>=0.14
