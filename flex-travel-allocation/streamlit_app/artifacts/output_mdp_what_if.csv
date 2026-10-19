@@ -1,0 +1,5 @@
+product,max_activations,subscriptions,utilisation,per_day_price,sale_revenue,activation_revenue,transition_gap,recoverable_mdp,promote_below_utilisation,breakeven_per_day_price
+Flex Abonnement 6,6,11061,0.9901,14.41,956571.0,947072.0,9499.0,0.0,0.0,14.56
+Flex Abonnement 10,10,11574,0.9768,11.84,1370165.0,1338332.0,31833.0,0.0,0.0,12.12
+Flex Abonnement 80,80,10252,0.767,14.2,11646039.0,8932701.0,2713339.0,766088.0,0.89,18.51
+Flex Abonnement 120,120,4788,0.4967,12.03,6911792.0,3433316.0,3478476.0,1315080.0,0.88,24.22

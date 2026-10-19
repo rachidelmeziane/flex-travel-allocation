@@ -1,0 +1,11 @@
+{
+  "input_sales": 37675,
+  "input_activations": 1093237,
+  "output_travel_rows": 2186474,
+  "total_pax": 2186474,
+  "distinct_tickets": 37675,
+  "example_ticket": 343445488317657,
+  "example_product": "Flex Abonnement 6",
+  "seed": 42,
+  "monte_carlo_replicates": 15
+}

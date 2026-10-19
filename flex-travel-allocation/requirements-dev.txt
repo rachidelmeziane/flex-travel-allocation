@@ -1,0 +1,13 @@
+# Development dependencies (linting, testing, notebooks/plots).
+# Install alongside requirements.txt for local development and CI.
+-r requirements.txt
+
+pytest>=8.0
+ruff>=0.5
+pre-commit>=3.7
+matplotlib>=3.8
+pandas>=2.0
+pyarrow>=15.0
+pyyaml>=6.0  # read conf/params.yml in the simulation/demo scripts
+streamlit>=1.30  # demo app (streamlit_app/)
+# scipy / statsmodels are pinned in requirements.txt (used by the models subpackage)

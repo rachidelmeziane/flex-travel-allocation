@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="200" height="49" viewBox="0 0 260 64" role="img" aria-label="SNCB / NMBS">
+  <rect width="260" height="64" rx="8" fill="#0b1f3a"/>
+  <rect x="0" y="0" width="8" height="64" rx="4" fill="#2e6fd6"/>
+  <text x="22" y="33" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="1">SNCB</text>
+  <text x="23" y="51" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9fc0f0">NMBS · Belgian Railways</text>
+  <g transform="translate(168,16)" fill="none" stroke="#2e6fd6" stroke-width="2.4">
+    <rect x="0" y="0" width="56" height="26" rx="6" fill="#12315c" stroke="#2e6fd6"/>
+    <line x1="0" y1="9" x2="56" y2="9" stroke="#9fc0f0" stroke-width="1.6"/>
+    <circle cx="9" cy="4.5" r="2" fill="#9fc0f0" stroke="none"/>
+    <circle cx="18" cy="4.5" r="2" fill="#9fc0f0" stroke="none"/>
+    <circle cx="14" cy="31" r="3.4" fill="#0b1f3a"/>
+    <circle cx="42" cy="31" r="3.4" fill="#0b1f3a"/>
+  </g>
+  <line x1="150" y1="52" x2="236" y2="52" stroke="#2e6fd6" stroke-width="2" stroke-dasharray="4 3"/>
+</svg>

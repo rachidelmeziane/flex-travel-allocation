@@ -1,0 +1,5 @@
+segment,n,price,p_inf,p_travel,prepaid_expected_value,postpaid_value,delta_vs_postpaid
+Flex Abonnement 120,4788,1443.57,1.0,1.0,1039.37,895.01,144.36
+Flex Abonnement 80,10252,1135.98,1.0,1.0,817.9,704.31,113.6
+Flex Abonnement 10,11574,118.38,1.0,1.0,85.24,73.4,11.84
+Flex Abonnement 6,11061,86.48,1.0,1.0,62.27,53.62,8.65

@@ -1,0 +1,5 @@
+product,utilisation,revenue_at_risk_pct,capacity_saving_pct,recoverable_mdp,mdp_recoverable_pct,priority,recommendation
+Flex Abonnement 6,0.9901,0.009930261318814809,0.00990000000000002,0.0,0.0,Low,Keep the sales model (activation is ~revenue-neutral); capacity already well matched; no promotion needed.
+Flex Abonnement 10,0.9768,0.02323296829214,0.0232,0.0,0.0,Low,Keep the sales model (activation is ~revenue-neutral); capacity already well matched; no promotion needed.
+Flex Abonnement 80,0.767,0.23298384970203173,0.23299999999999998,766088.0,0.06578099214677197,Medium,"Keep sales pricing; plan capacity to actual demand (-23% fleet); pilot targeted promotion (recover EUR 766,088)."
+Flex Abonnement 120,0.4967,0.5032668807163179,0.5033000000000001,1315080.0,0.1902661422681701,High,"Keep sales pricing (activation would cut revenue -50%); plan capacity to actual (-50% fleet); prioritise promotion (recover EUR 1,315,080)."

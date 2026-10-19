@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing / tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment / secrets (machine-specific paths, tokens) - keep only the template
+.env
+.env.*
+!.env.example
+
+# Model output and local logs
+output/
+*.log
+
+# Generated analysis reports (recreated by the *_simulation.py scripts)
+*_simulation.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db

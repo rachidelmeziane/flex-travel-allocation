@@ -1,0 +1,31 @@
+# Tunable analysis parameters for the simulation / demo scripts.
+#
+# The core functions in src/ already receive these as arguments; the scripts read
+# them here instead of hardcoding magic numbers. Edit values here - not in the .py.
+# (Structural constants - table names, article codes, SEED, timezone - stay in conf/config.py.)
+
+environment: NPD          # NPD (non-production) or PRD
+
+spark:
+  master: "local[*]"
+  shuffle_partitions: 8
+  ui_enabled: false
+  session_timezone: UTC
+
+revenue_risk:
+  non_payment_rate: 0.0   # fraction of activations assumed not paid (0.0 = none)
+
+mdp_what_if:
+  uplift: 0.10            # promotion lifts the per-opportunity activation probability (+10 pts)
+  cost_fraction: 0.25     # incentive cost per promoted opportunity = 25% of the per-day price
+
+monte_carlo:
+  replicates: 15          # number of Monte-Carlo replicates for the confidence bands
+
+train_scheduling:
+  seats_per_train: 500    # illustrative commuter train capacity
+  target_load_factor: 0.80  # plan to 80% of max load, not crush-loaded
+
+modeling:
+  as_of: null             # null -> max observed activation date + 1 day (estimation snapshot)
+

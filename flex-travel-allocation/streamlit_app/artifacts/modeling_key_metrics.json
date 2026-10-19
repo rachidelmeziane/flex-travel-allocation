@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-04-04",
+  "n_units": 37675,
+  "activation_ceiling_p_inf": 0.9992,
+  "breakage": 0.0008,
+  "cure_shape_k": 0.2,
+  "p_travel_given_activation": 1.0,
+  "travel_dispersion_alpha": 0.0457,
+  "poisson_overdispersion": 2.05,
+  "prepaid_expected_value_per_sale": 399.12,
+  "postpaid_value_per_sale": 343.69,
+  "delta_per_sale": 55.43,
+  "delta_ci": {
+    "lo": 54.91,
+    "mean": 55.44,
+    "hi": 56.0
+  },
+  "lag_bimodal": true
+}

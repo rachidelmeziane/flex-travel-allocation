@@ -1,0 +1,5 @@
+product,priority,p_inf,breakage,median_lag_days,trips_per_active_day,prepaid_ev,postpaid,delta_per_sale,delta_pct,recommendation
+Flex Abonnement 120,High,1.0,0.0,3.1,0.165,1039.37,895.01,144.36,0.1613,"Migrate to travel-allocation recognition: activation 100.0% (breakage 0.0%), median lag 3d; +EUR 144/sale (+16%). light per-day usage - high idle margin, low service cost."
+Flex Abonnement 80,High,1.0,0.0,2.0,0.17,817.9,704.31,113.6,0.1613,"Migrate to travel-allocation recognition: activation 100.0% (breakage 0.0%), median lag 2d; +EUR 114/sale (+16%). light per-day usage - high idle margin, low service cost."
+Flex Abonnement 10,Low,1.0,0.0,1.9,0.35,85.24,73.4,11.84,0.1613,"Migrate to travel-allocation recognition: activation 100.0% (breakage 0.0%), median lag 2d; +EUR 12/sale (+16%). heavy per-day usage - watch service cost."
+Flex Abonnement 6,Low,1.0,0.0,2.1,0.215,62.27,53.62,8.65,0.1613,"Migrate to travel-allocation recognition: activation 100.0% (breakage 0.0%), median lag 2d; +EUR 9/sale (+16%). light per-day usage - high idle margin, low service cost."
