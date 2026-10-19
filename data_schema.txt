@@ -1,0 +1,78 @@
+=== activations_article_dummy.parquet ===
+article_code_int              int16
+ticket_number_activations    object
+   article_code_int ticket_number_activations
+0               256   20251283653779531431918
+1               256   20250726054928625828292
+2               256   20258669372709628445507
+3               256   20255127713658893062524
+4               256   20255012964552157262831
+5               256   20250189464267681508016
+rows: 37675
+
+=== activations_flex_dummy.parquet ===
+ticket_number_activations             object
+activation_date                       object
+activation_sequence                    int32
+travel_start_timestamp_cet    datetime64[ns]
+travel_end_timestamp_cet      datetime64[ns]
+activation_timestamp_utc      datetime64[ns]
+  ticket_number_activations activation_date  activation_sequence travel_start_timestamp_cet travel_end_timestamp_cet activation_timestamp_utc
+0   20250000117645872809217      2025-02-04                    1                 2025-02-04      2025-02-04 23:59:59      2025-02-04 06:48:47
+1   20250000117645872809217      2025-02-06                    2                 2025-02-07      2025-02-07 23:59:59      2025-02-06 14:39:52
+2   20250000117645872809217      2025-02-11                    3                 2025-02-11      2025-02-11 23:59:59      2025-02-11 05:15:30
+3   20250000117645872809217      2025-02-14                    4                 2025-02-14      2025-02-14 23:59:59      2025-02-14 06:12:47
+4   20250000117645872809217      2025-02-17                    5                 2025-02-17      2025-02-17 23:59:59      2025-02-17 05:38:44
+5   20250000117645872809217      2025-02-19                    6                 2025-02-19      2025-02-19 23:59:59      2025-02-19 07:51:16
+rows: 1093237
+
+=== article_code_flex.parquet ===
+article_code_int                int16
+article_description_nl         object
+maximum_activations_allowed     int32
+   article_code_int article_description_nl  maximum_activations_allowed
+0               256      Flex Abonnement 6                            6
+1               258     Flex Abonnement 80                           80
+2               257     Flex Abonnement 10                           10
+3               259    Flex Abonnement 120                          120
+rows: 4
+
+=== hours_between_there_and_back_probabilities_dummy.parquet ===
+hours_between_there_and_back    float64
+probability                     float64
+   hours_between_there_and_back  probability
+0                           0.0         0.00
+1                           1.0         0.00
+2                           2.0         0.01
+3                           3.0         0.04
+4                           4.0         0.04
+5                           5.0         0.07
+rows: 24
+
+=== minutes_to_add_probabilities_dummy.parquet ===
+minutes_to_add      int32
+probability       float64
+   minutes_to_add  probability
+0             -10         0.18
+1               0         0.19
+2               5         0.22
+3              15         0.14
+4              30         0.16
+5              60         0.08
+rows: 8
+
+=== sales_flex_dummy.parquet ===
+net_sales_euro            float64
+sales_date                 object
+ticket_number               int64
+travel_start_date          object
+travel_end_date            object
+article_description_nl     object
+   net_sales_euro  sales_date        ticket_number travel_start_date travel_end_date article_description_nl
+0           95.96  2025-01-01     3533611089227163        2025-01-01      2025-01-31      Flex Abonnement 6
+1           81.98  2025-01-01  2010491083439785399        2025-01-01      2025-01-31      Flex Abonnement 6
+2           90.88  2025-01-01  7967589733060493850        2025-01-01      2025-01-31      Flex Abonnement 6
+3           96.59  2025-01-01   106026541225706019        2025-01-01      2025-01-31      Flex Abonnement 6
+4           84.43  2025-01-01  3787637304078836262        2025-01-01      2025-01-31      Flex Abonnement 6
+5           85.77  2025-01-01  8323148856480699395        2025-01-01      2025-01-31      Flex Abonnement 6
+rows: 37675
